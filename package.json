@@ -1,0 +1,29 @@
+{
+	"name": "@monstermann/tsconfig",
+	"version": "0.0.0",
+	"description": "Shared TypeScript config for my projects",
+	"license": "MIT",
+    "author": "Michael Ostermann <michaelostermann@me.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MichaelOstermann/tsconfig.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MichaelOstermann/tsconfig/issues"
+    },
+	"exports": "./tsconfig.json",
+	"sideEffects": false,
+	"files": [
+		"tsconfig.json"
+	],
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	],
+    "scripts": {
+        "release": "bun publish --access public"
+    }
+}
